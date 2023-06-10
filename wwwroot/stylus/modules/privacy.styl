@@ -1,0 +1,41 @@
+.privacy
+  margin: 120px 0;
+
+  article
+    > p
+      margin-bottom: 12px;
+      color: #000;
+      font-size: 16px;
+      line-height: 140%;
+
+    ul
+      margin-bottom: 24px;
+
+      li
+        padding: 12px 0;
+        list-style: none;
+
+        &:not(:last-child)
+          border-bottom: 1px solid #000;
+
+        h2
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 140%;
+
+          &:after
+            content: "+";
+
+          &.active
+            &:after
+              content: "-";
+
+        p
+          overflow: hidden;
+          padding-left: 12px;
+          max-height: 0;
+          color: #333;
+          transition: $transition;

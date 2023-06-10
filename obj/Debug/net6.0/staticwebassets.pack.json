@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\stylus\\components\\header.styl",
+      "PackagePath": "staticwebassets\\stylus\\components\\header.styl"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\stylus\\core.styl",
+      "PackagePath": "staticwebassets\\stylus\\core.styl"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\stylus\\default.styl",
+      "PackagePath": "staticwebassets\\stylus\\default.styl"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\stylus\\modules\\home.styl",
+      "PackagePath": "staticwebassets\\stylus\\modules\\home.styl"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\stylus\\reset.styl",
+      "PackagePath": "staticwebassets\\stylus\\reset.styl"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\Desktop\\faculdade\\YourAnimeList\\wwwroot\\stylus\\variables.styl",
+      "PackagePath": "staticwebassets\\stylus\\variables.styl"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BondGarfoApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BondGarfoApp.props",
+      "PackagePath": "build\\BondGarfoApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BondGarfoApp.props",
+      "PackagePath": "buildMultiTargeting\\BondGarfoApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BondGarfoApp.props",
+      "PackagePath": "buildTransitive\\BondGarfoApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,298 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background: transparent;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  vertical-align: baseline;
+  font-size: 100%;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+hr {
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+  height: 1px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+input,
+select {
+  outline-offset: 0;
+  vertical-align: middle;
+}
+.container-fluid,
+header .container-fluid {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+}
+h1 {
+  margin-bottom: 12px;
+  color: #3e4532;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 140%;
+}
+img {
+  display: block;
+}
+.home {
+  margin-bottom: 120px;
+}
+.home .fullbanner {
+  margin-bottom: 24px;
+}
+.home .fullbanner img {
+  margin: 0 auto;
+  width: 100%;
+}
+.home h1 strong {
+  color: #eee19b;
+}
+.home p {
+  display: block;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  line-height: 140%;
+}
+.privacy {
+  margin: 120px 0;
+}
+.privacy article > p {
+  margin-bottom: 12px;
+  color: #000;
+  font-size: 16px;
+  line-height: 140%;
+}
+.privacy article ul {
+  margin-bottom: 24px;
+}
+.privacy article ul li {
+  padding: 12px 0;
+  list-style: none;
+}
+.privacy article ul li:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+.privacy article ul li h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+}
+.privacy article ul li h2:after {
+  content: "+";
+}
+.privacy article ul li h2.active:after {
+  content: "-";
+}
+.privacy article ul li p {
+  overflow: hidden;
+  padding-left: 12px;
+  max-height: 0;
+  color: #333;
+  transition: 0.3s all ease-in-out;
+}
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+header .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+@media (max-width: 1330px) {
+  header .container-fluid {
+    padding: 12px;
+  }
+}
+header .container-fluid img {
+  max-width: 180px;
+}
+header .navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .navbar-nav .nav-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.3s all ease-in-out;
+}
+header .navbar-nav .nav-link:hover {
+  color: #eee19b;
+  text-decoration: underline;
+}
+footer {
+  position: relative;
+  padding: 30px 0 60px;
+  background: #fff;
+}
+footer:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(90deg, #d0e6a5 0, #ffdd94 333.45%);
+  content: "";
+}
+.copyright {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+}
+.copyright a {
+  color: #3e4532;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s all ease-in-out;
+}
+.copyright a:hover {
+  color: #eee19b;
+  text-decoration: underline;
+}

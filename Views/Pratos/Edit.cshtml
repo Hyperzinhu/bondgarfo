@@ -1,55 +1,49 @@
 @model BondGarfoApp.Models.Prato
 
 @{
-    ViewData["Title"] = "Edit";
+ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<section class="edit">
+    <h1>Editar Prato (@Html.DisplayFor(prato => prato.Nome))</h1>
 
-<h4>Prato</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Ingredientes" class="control-label"></label>
-                <input asp-for="Ingredientes" class="form-control" />
-                <span asp-validation-for="Ingredientes" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CategoriaId" class="control-label"></label>
-                <select asp-for="CategoriaId" class="form-control" asp-items="ViewBag.Categorias">
-                </select>
-    
-            </div>
-            <div class="form-group">
-                <label asp-for="Preco" class="control-label"></label>
-                <input asp-for="Preco" class="form-control" />
-                <span asp-validation-for="Preco" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Validade" class="control-label"></label>
-                <input asp-for="Validade" class="form-control" />
-                <span asp-validation-for="Validade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+    <form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly"></div>
+        <input type="hidden" asp-for="Id" />
+        <div>
+            <label asp-for="Nome"></label>
+            <input asp-for="Nome" />
+            <span asp-validation-for="Nome"></span>
+        </div>
+        <div>
+            <label asp-for="Ingredientes"></label>
+            <input asp-for="Ingredientes" />
+            <span asp-validation-for="Ingredientes"></span>
+        </div>
+        <div>
+            <label asp-for="CategoriaId"></label>
+            <select asp-for="CategoriaId" asp-items="ViewBag.Categorias">
+            </select>
 
-<div>
+        </div>
+        <div>
+            <label asp-for="Preco"></label>
+            <input asp-for="Preco" />
+            <span asp-validation-for="Preco"></span>
+        </div>
+        <div>
+            <label asp-for="Validade"></label>
+            <input asp-for="Validade" />
+            <span asp-validation-for="Validade"></span>
+        </div>
+        <div>
+            <input type="submit" value="Save" />
+        </div>
+    </form>
+
     <a asp-action="Index">Back to List</a>
-</div>
+</section>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

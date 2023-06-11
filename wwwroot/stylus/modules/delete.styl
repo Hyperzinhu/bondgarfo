@@ -1,0 +1,54 @@
+.delete
+  margin: 120px 0;
+
+  h2
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+
+    span
+      color: $primary;
+
+  small
+    color: red;
+    font-size: 14px;
+
+  dl
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 24px;
+
+    dt, dd
+      padding: 12px 0;
+      line-height: 24px;
+
+    dt
+      flex: 0 0 calc((100% / 6));
+      color: #000000;
+      font-weight: 700;
+      font-size: 16px;
+
+    dd
+      flex: 0 0 calc(100% / 12 * 10);
+      font-weight: 500;
+      font-size: 14px;
+
+  input[type="submit"]
+    width: 80px;
+    height: 40px;
+    border: 1px solid $secondary;
+    border-radius: 5px;
+    background: $secondary;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: $transition;
+
+    &:hover
+      border-color: $primary;
+      background: $primary;
+      color: $secondary;
+
+  form a
+    color: $primary;

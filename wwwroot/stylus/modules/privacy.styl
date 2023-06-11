@@ -25,11 +25,29 @@
           font-weight: 500;
           font-size: 18px;
           line-height: 140%;
+          transition: $transition;
+
+          &:before
+            position: absolute;
+            left: 0;
+            visibility: hidden;
+            color: $primary;
+            content: ">";
+            opacity: 0;
+
+            @media (max-width: 1330px)
+              left: 12px;
 
           &:after
             content: "+";
 
           &.active
+            padding: 0 12px;
+
+            &:before
+              visibility: visible;
+              opacity: 1;
+
             &:after
               content: "-";
 
